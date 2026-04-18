@@ -1,7 +1,5 @@
 {
-  "codeowners": [
-    "@FastEverLast"
-  ],
+  "codeowners": ["@FastEverLast"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/fasteverlast/kitchenowl-ha",
@@ -10,7 +8,7 @@
   "iot_class": "cloud_polling",
   "name": "KitchenOwl",
   "requirements": [
-    "kitchenowl-python @ git+https://github.com/fasteverlast/kitchenowl-python.git"
+    "kitchenowl-python"
   ],
   "version": "0.0.1"
 }
